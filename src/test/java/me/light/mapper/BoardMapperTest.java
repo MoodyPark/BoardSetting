@@ -36,7 +36,7 @@ public class BoardMapperTest extends AppTest{
 	@Test
 	@Ignore
 	public void getListTest() {
-		List<Board> list =  boardMapper.getList();
+		List<Board> list =  boardMapper.getList(null);
 		assertEquals(4, list.size());
 	}
 	
